@@ -13,11 +13,17 @@
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
-    {"name":"Enemies","order":1,"path":"folders/Sprites/Enemies.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"MIsc","order":1,"path":"folders/Sprites/MIsc.yy",},
+    {"name":"MISC","order":2,"path":"folders/Objects/MISC.yy",},
+    {"name":"Wizards","order":3,"path":"folders/Sprites/Wizards.yy",},
+    {"name":"Wizards","order":3,"path":"folders/Objects/Wizards.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_footsoldier","order":1,"path":"objects/obj_footsoldier/obj_footsoldier.yy",},
+    {"name":"obj_bullet","order":1,"path":"objects/obj_bullet/obj_bullet.yy",},
+    {"name":"spr_bullet","order":1,"path":"sprites/spr_bullet/spr_bullet.yy",},
+    {"name":"obj_firewizard","order":1,"path":"objects/obj_firewizard/obj_firewizard.yy",},
   ],
 }
