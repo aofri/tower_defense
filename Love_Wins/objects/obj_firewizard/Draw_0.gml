@@ -1,5 +1,6 @@
 if (current_state = state.drag) {
 	draw_self();
+	draw_circle(x, y, range, true);
 }
 
 if (current_state = state.attack) {
