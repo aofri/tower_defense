@@ -1,2 +1,3 @@
-global.coins += 1
-instance_destroy(id)
+other.hp -= damage;
+
+instance_destroy(id);

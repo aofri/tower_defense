@@ -21,8 +21,13 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_lvlUp","order":2,"path":"sprites/spr_lvlUp/spr_lvlUp.yy",},
     {"name":"obj_footsoldier","order":1,"path":"objects/obj_footsoldier/obj_footsoldier.yy",},
+    {"name":"obj_gameManager","order":2,"path":"objects/obj_gameManager/obj_gameManager.yy",},
+    {"name":"obj_hat","order":4,"path":"objects/obj_hat/obj_hat.yy",},
     {"name":"obj_bullet","order":1,"path":"objects/obj_bullet/obj_bullet.yy",},
+    {"name":"obj_upgrade","order":3,"path":"objects/obj_upgrade/obj_upgrade.yy",},
+    {"name":"spr_hat","order":3,"path":"sprites/spr_hat/spr_hat.yy",},
     {"name":"spr_bullet","order":1,"path":"sprites/spr_bullet/spr_bullet.yy",},
     {"name":"obj_firewizard","order":1,"path":"objects/obj_firewizard/obj_firewizard.yy",},
   ],
