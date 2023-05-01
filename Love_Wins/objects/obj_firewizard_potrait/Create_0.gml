@@ -1,1 +1,1 @@
-cost = 50;
+amount = 1;

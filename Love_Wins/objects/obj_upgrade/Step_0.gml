@@ -3,3 +3,4 @@
 if(!necessary){
 	instance_destroy(id);	
 }
+
