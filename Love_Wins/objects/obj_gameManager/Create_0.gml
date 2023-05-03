@@ -7,3 +7,5 @@ global.level = 1;
 global.coins = 100;
 
 global.towerhp = 5;
+
+click = part_system_create_layer("Particles", false, ps_click);
