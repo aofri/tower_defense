@@ -3,9 +3,9 @@
   "resourceVersion": "1.0",
   "name": "spr_firewizard",
   "bbox_bottom": 116,
-  "bbox_left": 3,
-  "bbox_right": 95,
-  "bbox_top": 9,
+  "bbox_left": 17,
+  "bbox_right": 91,
+  "bbox_top": 5,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6d8e961f-614d-4f70-9ac2-d936c21b3410",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"01f08e3c-535d-47c3-b08d-5e4915695ce3",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 120,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"45668905-7f37-4318-817e-b6e2d016dfb3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b281c437-73eb-40f7-968f-283108848caa","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6d8e961f-614d-4f70-9ac2-d936c21b3410","path":"sprites/spr_firewizard/spr_firewizard.yy",},},},"Disabled":false,"id":"eb4fe118-da7e-4b76-8d3a-762320617822","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"01f08e3c-535d-47c3-b08d-5e4915695ce3","path":"sprites/spr_firewizard/spr_firewizard.yy",},},},"Disabled":false,"id":"2518f271-995b-412c-9d9d-2dd30e277ae0","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
