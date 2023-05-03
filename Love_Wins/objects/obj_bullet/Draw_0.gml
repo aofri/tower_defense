@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_goto(rm_main);
+draw_self();
+part_system_position(fire, x, y);
