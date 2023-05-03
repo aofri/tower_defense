@@ -32,6 +32,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Wizards","folderPath":"folders/Sprites/Wizards.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Textures","folderPath":"folders/Sprites/Textures.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -40,6 +41,7 @@
     "IDEVersion": "2023.2.1.75",
   },
   "resources": [
+    {"id":{"name":"spr_tiles","path":"sprites/spr_tiles/spr_tiles.yy",},},
     {"id":{"name":"spr_lvlUp","path":"sprites/spr_lvlUp/spr_lvlUp.yy",},},
     {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},},
     {"id":{"name":"obj_footsoldier","path":"objects/obj_footsoldier/obj_footsoldier.yy",},},
@@ -58,6 +60,7 @@
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"obj_dice","path":"objects/obj_dice/obj_dice.yy",},},
     {"id":{"name":"obj_firewizard","path":"objects/obj_firewizard/obj_firewizard.yy",},},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"Screen","path":"sprites/Screen/Screen.yy",},},
     {"id":{"name":"obj_centraltower","path":"objects/obj_centraltower/obj_centraltower.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},

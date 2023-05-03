@@ -19,6 +19,7 @@
     {"name":"Wizards","order":3,"path":"folders/Sprites/Wizards.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Textures","order":4,"path":"folders/Sprites/Textures.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_lvlUp","order":2,"path":"sprites/spr_lvlUp/spr_lvlUp.yy",},

@@ -1,11 +1,14 @@
 if (current_state = state.drag) {
 	draw_self();
 	draw_circle(x, y, range, true);
+	
+	if (place_meeting(x, y, obj_firewizard)) { image_blend = c_red}
+	else {image_blend = c_white  }
 }
 
 if (current_state = state.attack) {
 	draw_self();
-	draw_circle(x, y, range, true);
+	if (position_meeting(mouse_x, mouse_y, id)) { draw_circle(x, y, range, true);  }
 	
 	var en = instance_nearest(x, y, obj_footsoldier);
 	if (en != noone) {
@@ -16,7 +19,7 @@ if (current_state = state.attack) {
 			}
 			
 			objectToShoot = en;
-			draw_line(x, y, en.x, en.y);
+			if (position_meeting(mouse_x, mouse_y, id)) { draw_line(x, y, en.x, en.y); }
 		}
 		else {
 			shooting = false;

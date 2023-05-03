@@ -5,3 +5,5 @@ global.spd = 2;
 global.level = 1;
 
 global.coins = 100;
+
+global.towerhp = 5;
