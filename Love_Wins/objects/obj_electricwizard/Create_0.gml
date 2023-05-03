@@ -1,12 +1,12 @@
-enum firestate 
+enum electricstate 
 {
 	drag,
 	attack
 }
-current_state = firestate.drag;
+current_state = electricstate.drag;
 
 range = 300;
-fire_rate = room_speed / 3;
+fire_rate = room_speed / 1;
 shooting = false;
 objectToShoot = noone;
 

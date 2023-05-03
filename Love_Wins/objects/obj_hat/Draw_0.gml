@@ -11,3 +11,4 @@ if(instance_exists(obj_firewizard)){
 		image_index = 2;
 	}
 }
+

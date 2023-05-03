@@ -1,8 +1,8 @@
-if (current_state = firestate.drag) {
+if (current_state = electricstate.drag) {
 	draw_self();
 	draw_circle(x, y, range, true);
 	
-	if (place_meeting(x, y, obj_firewizard)) { image_blend = c_red}
+	if (place_meeting(x, y, obj_electricwizard)) { image_blend = c_red}
 	else {image_blend = c_white  }
 }
 

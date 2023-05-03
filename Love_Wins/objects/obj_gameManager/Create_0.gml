@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.hp = 50;
+global.hp = 40;
 global.spd = 2;
 global.level = 1;
 

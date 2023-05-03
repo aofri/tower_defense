@@ -1,10 +1,10 @@
 switch (current_state) {
-	case firestate.drag:
+	case electricstate.drag:
 		x =	mouse_x;
 		y = mouse_y;
 	break;
 	
-	case firestate.attack:
+	case electricstate.attack:
 	if(!hatExists){
 		instance_create_depth(mouse_x, mouse_y -32, -50, obj_hat);
 		hatExists = true;

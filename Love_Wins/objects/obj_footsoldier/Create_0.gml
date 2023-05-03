@@ -1,3 +1,4 @@
-path_start(Path1, global.spd, 0, 1);
 hp = global.hp;
 
+myspeed = global.spd
+path_start(Path1, myspeed, 0, 1);
