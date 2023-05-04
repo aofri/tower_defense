@@ -3,9 +3,8 @@ if instance_exists(objectToShoot) {
 	bullet.speed = 10;
 	bullet.direction = point_direction(x, y, objectToShoot.x, objectToShoot.y);
 	bullet.damage = 5 * level;
-	bullet.stun = true;
-	bullet.dot = true;
-	alarm[0] = fire_rate * 2;
+	bullet.pushback = true;
+	alarm[0] = fire_rate;
 }
 else {
 	shooting = false;
