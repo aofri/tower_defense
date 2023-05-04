@@ -4,16 +4,17 @@
   "name": "obj_electricwizard_potrait",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Wizards",
-    "path": "folders/Objects/Wizards.yy",
+    "name": "wizardPortraits",
+    "path": "folders/Objects/wizardPortraits.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_wizardPortraitTemplate",
+    "path": "objects/obj_wizardPortraitTemplate/obj_wizardPortraitTemplate.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

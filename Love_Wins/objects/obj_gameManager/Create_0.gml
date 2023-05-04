@@ -8,3 +8,4 @@ global.coins = 100;
 
 global.towerhp = 5;
 
+global.marriageIsAllowed = false; //not enabled until you GACHA ROLL a RING

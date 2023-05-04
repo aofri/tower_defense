@@ -16,8 +16,8 @@
     "path": "folders/Objects/Wizards.yy",
   },
   "parentObjectId": {
-    "name": "obj_firewizard",
-    "path": "objects/obj_firewizard/obj_firewizard.yy",
+    "name": "obj_wizardTemplate",
+    "path": "objects/obj_wizardTemplate/obj_wizardTemplate.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

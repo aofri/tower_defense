@@ -1,9 +1,6 @@
-
 if (global.coins >= cost) {
-	gacha = irandom_range(1, 4)
-	if (gacha == 1) { obj_firewizard_potrait.amount += 1; }
-	if (gacha == 2) { obj_electricwizard_potrait.amount += 1; }
-	image_index = gacha
-	gacha = 0;
-	global.coins -= cost;
+	firstRoll = true;
+	alarm[0] = room_speed / 2;
+	audio_play_sound(sd_roll, 1, false);
 }
+//MOVED to add DELAY and SWAGGER
