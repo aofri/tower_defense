@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_fireWaWizard",
-    "path": "sprites/spr_fireWaWizard/spr_fireWaWizard.yy",
+    "name": "spr_waterWaWizard",
+    "path": "sprites/spr_waterWaWizard/spr_waterWaWizard.yy",
   },
   "spriteMaskId": null,
   "visible": true,
