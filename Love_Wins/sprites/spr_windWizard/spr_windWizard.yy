@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_windWizard",
   "bbox_bottom": 116,
-  "bbox_left": 3,
+  "bbox_left": 20,
   "bbox_right": 107,
   "bbox_top": 3,
   "bboxMode": 0,

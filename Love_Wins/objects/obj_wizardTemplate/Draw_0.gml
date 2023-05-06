@@ -27,3 +27,18 @@ if (current_state = firestate.attack) {
 		}
 	}	
 }
+
+//shaders! check the shader and marryer code for more
+if(shaderGreen){
+	shader_set(sh_green);
+	draw_self();
+	shader_reset();
+}else if(shaderGray){
+	shader_set(sh_gray);
+	draw_self();
+	shader_reset();	
+}else if(shaderCyan){
+	shader_set(sh_gray);
+	draw_self();
+	shader_reset();		
+}

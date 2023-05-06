@@ -19,3 +19,10 @@ switch (current_state) {
 	}
 	break;
 }
+
+//for the shader. for more info check draw, create, shaders, or marryer
+if(!object_exists(obj_marryer)){
+	shaderGreen = false;
+	shaderGray = false;
+	shaderCyan = false;
+}

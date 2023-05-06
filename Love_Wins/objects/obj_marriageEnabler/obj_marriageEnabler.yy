@@ -29,10 +29,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_lockedButton",
-    "path": "sprites/spr_lockedButton/spr_lockedButton.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

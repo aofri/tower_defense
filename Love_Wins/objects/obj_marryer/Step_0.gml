@@ -3,13 +3,10 @@
 x = mouse_x;
 y = mouse_y;
 
-if(level != 0){
-	if(sprite_index == spr_ringBronze){
-		level = 1;
-	}else if(sprite_index == spr_ringSilver){
-		level = 2;	
-	}else if(sprite_index == spr_ringGold){
-		level = 3;	
+for (var i = 0; i < instance_number(obj_wizardTemplate); i++;)
+{
+    with instance_find(obj_wizardTemplate,i){
+		if(level == other.level){shaderGreen = true;}
+		else{shaderGray = true;}
 	}
-	show_debug_message(level);
 }

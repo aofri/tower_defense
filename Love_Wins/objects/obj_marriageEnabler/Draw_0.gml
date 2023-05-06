@@ -1,9 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 draw_self();
-//if(global.bronzeRings > 0){
-	sprite_index = spr_ringBronze;
-//}
-image_xscale = 120/300;
-image_yscale = 120/300;
-image_speed = 0;
+if(type == "bronze"){
+	draw_text(x -50, y -55, global.numOfRings[ringNum]);
+}else if(type == "silver"){
+	draw_text(x -50, y -55, global.numOfRings[ringNum]);
+}else if(type == "gold"){
+	draw_text(x -50, y -55, global.numOfRings[ringNum]);
+}

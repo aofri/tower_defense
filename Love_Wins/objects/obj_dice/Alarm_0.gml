@@ -30,15 +30,15 @@ else if(gacha <= 8){
 }
 else if(gacha <= 12){
 	sprite_index = spr_ringBronze;
-	global.bronzeRings++;
+	global.numOfRings[0]++;
 }
 else if(gacha <= 15){
 	sprite_index = spr_ringSilver;
-	global.silverRings++;
+	global.numOfRings[1]++;
 }
 else if(gacha == 16){
 	sprite_index = spr_ringGold;
-	global.goldRings++;
+	global.numOfRings[2]++;
 }
 else if (gacha == 17){
 	var tempWizz = irandom_range(1, 4);
