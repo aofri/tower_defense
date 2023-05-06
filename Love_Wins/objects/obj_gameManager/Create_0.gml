@@ -8,4 +8,12 @@ global.coins = 100;
 
 global.towerhp = 5;
 
-global.marriageIsAllowed = false; //not enabled until you GACHA ROLL a RING
+
+
+if(room == rm_start){
+	audio_play_sound(sd_intro, 1, false);
+}
+
+global.bronzeRings = 0;
+global.silverRings = 0;
+global.goldRings = 0;

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "sd_shoot",
+  "name": "sd_press",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "sd_shoot.wav",
+  "soundFile": "sd_press.wav",
   "type": 0,
   "volume": 1.0,
 }

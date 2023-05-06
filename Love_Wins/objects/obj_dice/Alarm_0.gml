@@ -29,16 +29,16 @@ else if(gacha <= 8){
 	image_index = 4;
 }
 else if(gacha <= 12){
-	global.marriageIsAllowed = true;
 	sprite_index = spr_ringBronze;
+	global.bronzeRings++;
 }
 else if(gacha <= 15){
-	global.marriageIsAllowed = true;
 	sprite_index = spr_ringSilver;
+	global.silverRings++;
 }
 else if(gacha == 16){
-	global.marriageIsAllowed = true;
 	sprite_index = spr_ringGold;
+	global.goldRings++;
 }
 else if (gacha == 17){
 	var tempWizz = irandom_range(1, 4);

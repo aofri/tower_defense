@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_self();
-if(firstRoll){
-	draw_text(250, 100, "Congrats! You rolled a ");
-}
+level = 0;
+image_xscale = 120/300;
+image_yscale = 120/300;
