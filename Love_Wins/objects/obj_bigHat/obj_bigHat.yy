@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_windWizard",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "obj_bigHat",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Wizards",
-    "path": "folders/Objects/Wizards.yy",
+    "name": "MISC",
+    "path": "folders/Objects/MISC.yy",
   },
   "parentObjectId": {
-    "name": "obj_wizardTemplate",
-    "path": "objects/obj_wizardTemplate/obj_wizardTemplate.yy",
+    "name": "obj_hat",
+    "path": "objects/obj_hat/obj_hat.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -32,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_windWizard",
-    "path": "sprites/spr_windWizard/spr_windWizard.yy",
+    "name": "spr_hatBig",
+    "path": "sprites/spr_hatBig/spr_hatBig.yy",
   },
   "spriteMaskId": null,
   "visible": true,

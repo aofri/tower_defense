@@ -4,6 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-range = 500;
-fire_rate = room_speed;
 married = false;

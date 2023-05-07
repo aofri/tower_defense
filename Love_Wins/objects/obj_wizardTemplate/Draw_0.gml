@@ -38,7 +38,7 @@ if(shaderGreen){
 	draw_self();
 	shader_reset();	
 }else if(shaderCyan){
-	shader_set(sh_gray);
+	shader_set(sh_blue);
 	draw_self();
 	shader_reset();		
 }

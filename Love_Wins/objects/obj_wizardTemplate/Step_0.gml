@@ -6,7 +6,11 @@ switch (current_state) {
 	
 	case firestate.attack:
 	if(!hatExists){
-		instance_create_depth(mouse_x, mouse_y -32, -50, obj_hat);
+		if(married){
+			instance_create_depth(x, y - sprite_height/4, -10, obj_bigHat);	
+		}if(!married){
+			instance_create_depth(x, y - sprite_height/4, -10, obj_hat);
+		}
 		hatExists = true;
 	}
 
@@ -20,9 +24,3 @@ switch (current_state) {
 	break;
 }
 
-//for the shader. for more info check draw, create, shaders, or marryer
-if(!object_exists(obj_marryer)){
-	shaderGreen = false;
-	shaderGray = false;
-	shaderCyan = false;
-}

@@ -18,3 +18,5 @@ hatExists = false;
 shaderGreen = false;
 shaderGray = false;
 shaderCyan = false;
+
+married = true;
