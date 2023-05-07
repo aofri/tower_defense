@@ -1,0 +1,1 @@
+if (!instance_exists(obj_fog)) { instance_create_depth(x, y, -500, obj_fog) }

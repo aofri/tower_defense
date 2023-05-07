@@ -9,7 +9,6 @@ global.coins = 100;
 global.towerhp = 5;
 
 
-
 if(room == rm_start){
 	audio_play_sound(sd_intro, 1, false);
 }else if(room == rm_main){

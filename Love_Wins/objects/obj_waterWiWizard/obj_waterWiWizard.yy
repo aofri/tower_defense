@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_waterWiWizard",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -29,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_fireWiWizard",
-    "path": "sprites/spr_fireWiWizard/spr_fireWiWizard.yy",
+    "name": "spr_waterWiWizard",
+    "path": "sprites/spr_waterWiWizard/spr_waterWiWizard.yy",
   },
   "spriteMaskId": null,
   "visible": true,

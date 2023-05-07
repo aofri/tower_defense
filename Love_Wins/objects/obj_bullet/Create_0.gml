@@ -7,3 +7,4 @@ pe_fire = part_emitter_create(ps_fireBullet);
 stun = false;
 pushback = false;
 dot = false;
+explosion = false;

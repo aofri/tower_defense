@@ -10,7 +10,7 @@ if(object_exists(obj_wizardTemplate)){
 if(object_exists(obj_marryer)){
 	for(var i = 0; i < instance_number(obj_marryer); i++){
 		needed = true;
-		show_debug_message("A");
+		//show_debug_message("A");
 	}
 }else{
 	needed = false;	

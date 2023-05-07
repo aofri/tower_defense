@@ -15,3 +15,8 @@ if (pushback == true) {
 	other.path_speed = -2
 	other.alarm[2] = room_speed;
 }
+
+if (explosion == true) {
+	instance_create_depth(x, y, -500, obj_explode)	
+
+}

@@ -1,1 +1,1 @@
-path_speed = 2
+path_speed = global.spd

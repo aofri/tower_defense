@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "MIsc",
-    "path": "folders/Sprites/MIsc.yy",
+    "name": "Damage Types",
+    "path": "folders/Sprites/Damage Types.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
