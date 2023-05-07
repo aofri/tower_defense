@@ -8,6 +8,7 @@ global.coins = 100;
 
 global.towerhp = 5;
 
+depth = -10000000
 
 if(room == rm_start){
 	audio_play_sound(sd_intro, 1, false);

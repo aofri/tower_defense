@@ -5,4 +5,3 @@ if(global.towerhp < 1){
 	room_goto_next();
 }
 
-show_debug_message(global.spd)

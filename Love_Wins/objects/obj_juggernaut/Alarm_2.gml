@@ -1,0 +1,1 @@
+path_speed = global.spd - 1.5

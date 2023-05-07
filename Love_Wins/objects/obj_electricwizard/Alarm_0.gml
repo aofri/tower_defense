@@ -5,6 +5,7 @@ if instance_exists(objectToShoot) {
 	bullet.damage = 5 * level;
 	bullet.stun = true;
 	bullet.dot = true;
+	bullet.image_index = 2
 	alarm[0] = fire_rate * 2;
 }
 else {

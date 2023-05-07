@@ -5,8 +5,9 @@ instance_create_depth(1400, 300, -1001, obj_dice);
 obj_dice.target_x = 700;
 }
 
-if (obj_screen.x = 100) {
+if (obj_screen.x <= 500) {
 instance_destroy(obj_screen);
 instance_destroy(obj_dice);
+room_speed = 60
 }
   
