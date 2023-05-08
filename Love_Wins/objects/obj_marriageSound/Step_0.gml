@@ -4,6 +4,7 @@ if(wiz1 != ""){
 	if(!going){
 		going = true;
 		cutting = true;
+		image_index = 0;
 		wiz3 = string(wiz1) + string(wiz2);
 		show_debug_message(wiz3);
 		
@@ -39,7 +40,7 @@ if(wiz1 != ""){
 			sprite_index = spr_marrWaWi;
 		}else if(wiz3 == "windwind"){//WiWi
 			var curPlay = audio_play_sound(sd_windMarryWi, 1, false);
-			sprite_index = spr_marrWaWi;
+			sprite_index = spr_marrWiWi;
 		}
 		
 		var len = audio_sound_length(curPlay);
