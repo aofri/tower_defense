@@ -3,6 +3,9 @@ y = lerp(y, target_y, 0.3);
 
 
 if (instance_exists(obj_scaps)) {
-target_x = x - 100
-target_y = y - 100
+target_x = obj_gameManager.x + 480
+target_y = obj_gameManager.y - 20
 }
+
+
+if !alarm_get(0) then alarm_set(0, 30)

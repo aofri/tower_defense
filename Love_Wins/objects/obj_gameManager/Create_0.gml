@@ -34,6 +34,6 @@ if(room == rm_start){
 	}
 }
 
-global.numOfRings = [ 0, 0, 0];
+global.numOfRings = [ 10, 10, 10];
 
 global.voicePlaying = false;

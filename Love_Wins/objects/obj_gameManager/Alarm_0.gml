@@ -1,0 +1,1 @@
+instance_create_depth(random(room_width), y, -500, obj_leaves)
