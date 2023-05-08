@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 5.232,
+  "duration": 7.704,
   "parent": {
     "name": "fire",
     "path": "folders/Sounds/fire.yy",

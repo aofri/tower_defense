@@ -8,3 +8,4 @@ married = false;
 
 sAtk = sd_windAtk;
 sPlace = sd_windPlace;
+localDmg = 5;

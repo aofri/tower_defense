@@ -1,6 +1,9 @@
-spawn_amount = 100000000000000000000000;
+spawn_amount = 10;
 spawn_count = 0;
-spawn_rate = room_speed * 4;
+spawn_rate = room_speed * 2;
 alarm[0] = 1;
 
+waveNumber = 0;
 spawn_which = 0;
+
+instaWin = false;

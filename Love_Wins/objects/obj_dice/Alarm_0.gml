@@ -58,7 +58,7 @@ else if (gacha == 17){
 	else if(tempWizz == 2){obj_electricwizard_potrait.amount++;}
 	else if(tempWizz == 3){obj_waterWizardPortrait.amount++;}
 	else if(tempWizz == 4){obj_windWizardPortrait.amount++;}
-	global.coins += 150;
+	global.coins += global.levelTwoCost;
 	rarity = 3;
 }
 else if(gacha > 17){

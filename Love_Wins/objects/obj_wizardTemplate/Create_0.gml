@@ -6,6 +6,7 @@ enum firestate
 current_state = firestate.drag;
 trashable = true;
 
+localDmg = 20;
 range = 300;
 fire_rate = room_speed / 3;
 shooting = false;

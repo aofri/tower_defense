@@ -18,7 +18,7 @@ switch (current_state) {
 		hatExists = true;
 	}
 
-	if(global.coins >= 150 && level == 1 || global.coins >= 300 && level == 2){//if available to level up to lvl2
+	if(global.coins >= global.levelTwoCost && level == 1 || global.coins >= global.levelThreeCost && level == 2){//if available to level up to lvl2
 		if(!place_meeting(x, y, obj_upgrade)){
 			with(instance_create_depth(x, y, -100, obj_upgrade)){
 				obj_upgrade.necessary = true;

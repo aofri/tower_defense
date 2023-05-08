@@ -8,3 +8,4 @@ married = false;
 
 sAtk = sd_electricAtk;
 sPlace = sd_electricPlace;
+localDmg = 10;

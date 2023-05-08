@@ -5,7 +5,7 @@ if instance_exists(objectToShoot) {
 	bullet.image_yscale = 1.5
 	alarm[0] = fire_rate;
 	
-	var len = audio_sound_length(sd_fireAtk);
+	var len = audio_sound_length(sAtk);
 	
 	var num = irandom_range(1, 20);
 	if(num == 1 && !global.voicePlaying){

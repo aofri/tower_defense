@@ -2,10 +2,10 @@ if instance_exists(objectToShoot) {
 	var bullet = instance_create_depth(x, y, -9, obj_bullet)
 	bullet.speed = 10;
 	bullet.direction = point_direction(x, y, objectToShoot.x, objectToShoot.y);
-	bullet.damage = 20 * level;
+	bullet.damage = localDmg * level;
 	alarm[0] = fire_rate;
 	
-	var len = audio_sound_length(sd_fireAtk);
+	var len = audio_sound_length(sAtk);
 	
 	shots++;
 	if(shots == maxShots && !global.voicePlaying){

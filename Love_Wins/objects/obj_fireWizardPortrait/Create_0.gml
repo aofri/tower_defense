@@ -7,3 +7,4 @@ event_inherited();
 localWizard = obj_fireWizard;
 //this means that it will create a fire wizard
 
+amount = 1;

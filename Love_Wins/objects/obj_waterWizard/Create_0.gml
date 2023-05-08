@@ -8,3 +8,4 @@ married = false;
 
 sAtk = sd_waterAtk;
 sPlace = sd_waterPlace;
+localDmg = 10;

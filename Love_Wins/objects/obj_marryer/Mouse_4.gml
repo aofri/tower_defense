@@ -103,4 +103,7 @@ if(mouse_x > temp.x - sprite_width/2 && mouse_x < temp.x + sprite_width/2 &&
 		ds_list_delete(gays, 1);
 		instance_destroy(id);
 	}
+}else{
+	audio_play_sound(sd_cancel, 1, false);	
+	
 }
