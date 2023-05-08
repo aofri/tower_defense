@@ -34,17 +34,20 @@ else if(gacha <= 8){
 	rarity = 2;
 }
 else if(gacha <= 12){
-	sprite_index = spr_ringBronze;
+	sprite_index = spr_dice;
+	image_index = 5;
 	global.numOfRings[0]++;
 	rarity = 1;
 }
 else if(gacha <= 15){
-	sprite_index = spr_ringSilver;
+	sprite_index = spr_dice;
+	image_index = 6;
 	global.numOfRings[1]++;
 	rarity = 2;
 }
 else if(gacha == 16){
-	sprite_index = spr_ringGold;
+	sprite_index = spr_dice;
+	image_index = 7;
 	global.numOfRings[2]++;
 	rarity = 3;
 }
@@ -58,6 +61,11 @@ else if (gacha == 17){
 	global.coins += 150;
 	rarity = 3;
 }
-else if(gacha > 17){sprite_index = spr_trash; rarity = 1;}
+else if(gacha > 17){
+	sprite_index = spr_dice;
+	image_index = 8;
+    rarity = 1; 
+	global.coins += 50
+}
 
 alarm[1] = room_speed/2;
