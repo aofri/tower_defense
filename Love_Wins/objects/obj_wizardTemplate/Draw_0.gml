@@ -2,7 +2,7 @@ if (current_state = firestate.drag) {
 	draw_self();
 	draw_circle(x, y, range, true);
 	
-	if (place_meeting(x, y, obj_wizardTemplate)) { image_blend = c_red}
+	if (place_meeting(x, y, obj_wizardTemplate) or place_meeting(x, y, obj_blocker) ) { image_blend = c_red}
 	else {image_blend = c_white  }
 }
 
