@@ -6,6 +6,10 @@ switch (current_state) {
 	
 	case firestate.attack:
 	if(!hatExists){
+		if(!global.voicePlaying && !married){
+			audio_play_sound(sPlace, 1, false);
+			global.voicePlaying = true;
+		}
 		if(married){
 			instance_create_depth(x, y - sprite_height/4, -10, obj_bigHat);	
 		}if(!married){
@@ -21,6 +25,10 @@ switch (current_state) {
 			}
 		}
 	}
+	
+	if(audio_is_playing(sAtk) || audio_is_playing(sPlace) || audio_is_playing(sWiz2)){global.voicePlaying = true;}
+	else{global.voicePlaying = false;}
+	
 	break;
 }
 

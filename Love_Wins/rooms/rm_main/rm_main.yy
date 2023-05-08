@@ -15,6 +15,7 @@
     {"name":"inst_422862C5","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_34624387","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_4CA1F2A1","path":"rooms/rm_main/rm_main.yy",},
+    {"name":"inst_74EF303E","path":"rooms/rm_main/rm_main.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -31,6 +32,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_530855DB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_waterWizardPortrait","path":"objects/obj_waterWizardPortrait/obj_waterWizardPortrait.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1261.0,"y":418.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_422862C5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_windWizardPortrait","path":"objects/obj_windWizardPortrait/obj_windWizardPortrait.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1261.0,"y":298.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_34624387","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_garbage","path":"objects/obj_garbage/obj_garbage.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":92.0,"y":761.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_74EF303E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_marriageSound","path":"objects/obj_marriageSound/obj_marriageSound.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1376.0,"y":512.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Texture","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":7,"SerialiseWidth":11,"TileCompressedData":[
 -2,0,1,1,-10,0,3,1,0,0,-4,
