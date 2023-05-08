@@ -4,3 +4,4 @@ global.voicePlaying = false;
 wiz1 = "";
 wiz2 = "";
 going = false;
+audio_resume_all();

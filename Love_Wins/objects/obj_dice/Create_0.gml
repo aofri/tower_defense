@@ -4,4 +4,6 @@ image_speed = 0;
 cost = 50;
 gacha = 0;
 
+rarity = 0;
+currRolling = false;
 firstRoll = false;

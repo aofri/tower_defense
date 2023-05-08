@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 2.709333,
+  "duration": 2.115708,
   "parent": {
     "name": "wind",
     "path": "folders/Sounds/wind.yy",

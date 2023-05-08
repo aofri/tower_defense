@@ -7,8 +7,8 @@ if instance_exists(objectToShoot) {
 	
 	var len = audio_sound_length(sd_fireAtk);
 	
-	var num = irandom_range(1, 20);
-	if(num == 1 && !global.voicePlaying){
+	shots++;
+	if(shots == maxShots && !global.voicePlaying){
 		if(!married){
 			audio_play_sound(sAtk, 1, false);
 			global.voicePlaying = true;
@@ -17,6 +17,7 @@ if instance_exists(objectToShoot) {
 			alarm[1] = room_speed * len;
 			global.voicePlaying = true;
 		}
+		shots = 0;
 	}
 }
 else {

@@ -8,7 +8,9 @@ for (var i = 0; i < instance_number(obj_wizardTemplate); i++;)
 		shaderCyan = false;
 	}
 }
-with instance_nearest(x, y, obj_marriageSound){
-	wiz1 = other.wiz1;
-	wiz2 = other.wiz2;
+if(!obj_garbage.needed){
+	with instance_nearest(x, y, obj_marriageSound){
+		wiz1 = other.wiz1;
+		wiz2 = other.wiz2;
+	}
 }

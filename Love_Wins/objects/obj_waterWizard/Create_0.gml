@@ -5,3 +5,6 @@
 event_inherited();
 
 married = false;
+
+sAtk = sd_waterAtk;
+sPlace = sd_waterPlace;

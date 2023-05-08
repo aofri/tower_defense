@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_self();
+if(!currRolling){
+	draw_self();
+}
 if(firstRoll){
-	draw_text(250, 100, "Congrats! You rolled a ");
+	draw_text(x - 100, 100, "Congrats! You rolled a ");
 }

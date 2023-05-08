@@ -5,3 +5,6 @@
 event_inherited();
 
 married = false;
+
+sAtk = sd_electricAtk;
+sPlace = sd_electricPlace;

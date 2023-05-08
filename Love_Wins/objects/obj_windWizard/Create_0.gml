@@ -5,3 +5,6 @@
 event_inherited();
 
 married = false;
+
+sAtk = sd_windAtk;
+sPlace = sd_windPlace;

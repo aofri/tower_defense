@@ -16,21 +16,29 @@ if(mouse_x > temp.x - sprite_width/2 && mouse_x < temp.x + sprite_width/2 &&
 			   var yuh = instance_create_depth(ds_list_find_value(gays, 1).x, ds_list_find_value(gays, 1).y, -9, obj_electricEWizard);
 			   wiz1 = "electric";
 			   wiz2 = "electric";
+			   yuh.sAtk = sd_electricAtk;
+			   yuh.sWiz2 = sd_electricAtk;
 		}else if(ds_list_find_value(gays, 0).sprite_index == spr_firewizard &&
 				 ds_list_find_value(gays, 1).sprite_index == spr_firewizard){//FF
 			   var yuh = instance_create_depth(ds_list_find_value(gays, 1).x, ds_list_find_value(gays, 1).y, -9, obj_fireFWizard);
 			   wiz1 = "fire";
 			   wiz2 = "fire";
+			   yuh.sAtk = sd_fireAtk;
+			   yuh.sWiz2 = sd_fireAtk;
 		}else if(ds_list_find_value(gays, 0).sprite_index == spr_waterWizard &&
 				 ds_list_find_value(gays, 1).sprite_index == spr_waterWizard){//WaWa
 			   var yuh = instance_create_depth(ds_list_find_value(gays, 1).x, ds_list_find_value(gays, 1).y, -9, obj_waterWaWizard);
 			   wiz1 = "water";
 			   wiz2 = "water";
+			   yuh.sAtk = sd_waterAtk;
+			   yuh.sWiz2 = sd_waterAtk;
 		}else if(ds_list_find_value(gays, 0).sprite_index == spr_windWizard &&
 				 ds_list_find_value(gays, 1).sprite_index == spr_windWizard){//WiWi
 			   var yuh = instance_create_depth(ds_list_find_value(gays, 1).x, ds_list_find_value(gays, 1).y, -9, obj_windWiWizard);
 			   wiz1 = "wind";
 			   wiz2 = "wind";
+			   yuh.sAtk = sd_windAtk;
+			   yuh.sWiz2 = sd_windAtk;
 		}else if(ds_list_find_value(gays, 0).sprite_index == spr_electricwizard &&
 				 ds_list_find_value(gays, 1).sprite_index == spr_firewizard || 
 				 ds_list_find_value(gays, 1).sprite_index == spr_electricwizard &&
@@ -38,6 +46,8 @@ if(mouse_x > temp.x - sprite_width/2 && mouse_x < temp.x + sprite_width/2 &&
 			   var yuh = instance_create_depth(ds_list_find_value(gays, 1).x, ds_list_find_value(gays, 1).y, -9, obj_electricFWizard);
 			   wiz1 = "electric";
 			   wiz2 = "fire";
+			   yuh.sAtk = sd_electricAtk;
+			   yuh.sWiz2 = sd_fireAtk;
 		}else if(ds_list_find_value(gays, 0).sprite_index == spr_electricwizard &&
 				 ds_list_find_value(gays, 1).sprite_index == spr_waterWizard || 
 				 ds_list_find_value(gays, 1).sprite_index == spr_electricwizard &&
@@ -45,6 +55,8 @@ if(mouse_x > temp.x - sprite_width/2 && mouse_x < temp.x + sprite_width/2 &&
 			   var yuh = instance_create_depth(ds_list_find_value(gays, 1).x, ds_list_find_value(gays, 1).y, -9, obj_electricWaWizard);
 			   wiz1 = "electric";
 			   wiz2 = "water";
+			   yuh.sAtk = sd_electricAtk;
+			   yuh.sWiz2 = sd_waterAtk;
 		}else if(ds_list_find_value(gays, 0).sprite_index == spr_electricwizard &&
 				 ds_list_find_value(gays, 1).sprite_index == spr_windWizard || 
 				 ds_list_find_value(gays, 1).sprite_index == spr_electricwizard &&
@@ -52,6 +64,8 @@ if(mouse_x > temp.x - sprite_width/2 && mouse_x < temp.x + sprite_width/2 &&
 			   var yuh = instance_create_depth(ds_list_find_value(gays, 1).x, ds_list_find_value(gays, 1).y, -9, obj_electricWiWizard);
 			   wiz1 = "electric";
 			   wiz2 = "wind";
+			   yuh.sAtk = sd_electricAtk;
+			   yuh.sWiz2 = sd_windAtk;
 		}else if(ds_list_find_value(gays, 0).sprite_index == spr_waterWizard &&
 				 ds_list_find_value(gays, 1).sprite_index == spr_firewizard || 
 				 ds_list_find_value(gays, 1).sprite_index == spr_waterWizard &&
@@ -59,6 +73,8 @@ if(mouse_x > temp.x - sprite_width/2 && mouse_x < temp.x + sprite_width/2 &&
 			   var yuh = instance_create_depth(ds_list_find_value(gays, 1).x, ds_list_find_value(gays, 1).y, -9, obj_fireWaWizard);
 			   wiz1 = "fire";
 			   wiz2 = "water";
+			   yuh.sAtk = sd_fireAtk;
+			   yuh.sWiz2 = sd_waterAtk;
 		}else if(ds_list_find_value(gays, 0).sprite_index == spr_windWizard &&
 				 ds_list_find_value(gays, 1).sprite_index == spr_firewizard || 
 				 ds_list_find_value(gays, 1).sprite_index == spr_windWizard &&
@@ -66,6 +82,8 @@ if(mouse_x > temp.x - sprite_width/2 && mouse_x < temp.x + sprite_width/2 &&
 			   var yuh = instance_create_depth(ds_list_find_value(gays, 1).x, ds_list_find_value(gays, 1).y, -9, obj_fireWiWizard);
 			   wiz1 = "fire";
 			   wiz2 = "wind";
+			   yuh.sAtk = sd_fireAtk;
+			   yuh.sWiz2 = sd_windAtk;
 		}else if(ds_list_find_value(gays, 0).sprite_index == spr_windWizard &&
 				 ds_list_find_value(gays, 1).sprite_index == spr_waterWizard || 
 				 ds_list_find_value(gays, 1).sprite_index == spr_windWizard &&
@@ -73,7 +91,10 @@ if(mouse_x > temp.x - sprite_width/2 && mouse_x < temp.x + sprite_width/2 &&
 			   var yuh = instance_create_depth(ds_list_find_value(gays, 1).x, ds_list_find_value(gays, 1).y, -9, obj_waterWiWizard);
 			   wiz1 = "water";
 			   wiz2 = "wind";
+			   yuh.sAtk = sd_waterAtk;
+			   yuh.sWiz2 = sd_windAtk;
 		}
+		
 		yuh.level = level;
 		
 		instance_destroy(ds_list_find_value(gays, 0));

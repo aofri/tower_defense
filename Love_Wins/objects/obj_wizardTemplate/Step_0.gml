@@ -30,5 +30,9 @@ switch (current_state) {
 	else{global.voicePlaying = false;}
 	
 	break;
+	
+	if(married){
+		show_debug_message(string(sWiz2));	
+	}
 }
 

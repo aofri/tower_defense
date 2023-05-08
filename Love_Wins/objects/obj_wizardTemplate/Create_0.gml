@@ -21,13 +21,9 @@ shaderCyan = false;
 
 married = true;
 
+shots = 0;
+maxShots = 10;
+
 sAtk = sd_fireAtk;
-
-sMarryE = sd_fireMarryE;
-sMarryF = sd_fireMarryF;
-sMarryWa = sd_fireMarryWa;
-sMarryWi = sd_fireMarryWi;
-
 sWiz2 = sd_waterAtk;
-
 sPlace = sd_firePlace;

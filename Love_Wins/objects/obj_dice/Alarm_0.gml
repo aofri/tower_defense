@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+currRolling = true;
+instance_nearest(x, y, obj_lePonderer).image_speed = room_speed * 1/28;
 gacha = irandom_range(1, 20);
 //1 - 8 characters
 //9 - 12 bronze ring
@@ -12,33 +13,40 @@ if (gacha <= 2) {
 	obj_fireWizardPortrait.amount += 1;
 	sprite_index = spr_dice;
 	image_index = 1;
+	rarity = 2;
 }
 else if (gacha <= 4){
 	obj_electricwizard_potrait.amount += 1;
 	sprite_index = spr_dice;
 	image_index = 2;
+	rarity = 2;
 }
 else if(gacha <= 6){
 	obj_windWizardPortrait.amount++;
 	sprite_index = spr_dice;
 	image_index = 3;
+	rarity = 2;
 }
 else if(gacha <= 8){
 	obj_waterWizardPortrait.amount++;
 	sprite_index = spr_dice;
 	image_index = 4;
+	rarity = 2;
 }
 else if(gacha <= 12){
 	sprite_index = spr_ringBronze;
 	global.numOfRings[0]++;
+	rarity = 1;
 }
 else if(gacha <= 15){
 	sprite_index = spr_ringSilver;
 	global.numOfRings[1]++;
+	rarity = 2;
 }
 else if(gacha == 16){
 	sprite_index = spr_ringGold;
 	global.numOfRings[2]++;
+	rarity = 3;
 }
 else if (gacha == 17){
 	var tempWizz = irandom_range(1, 4);
@@ -48,7 +56,8 @@ else if (gacha == 17){
 	else if(tempWizz == 3){obj_waterWizardPortrait.amount++;}
 	else if(tempWizz == 4){obj_windWizardPortrait.amount++;}
 	global.coins += 150;
+	rarity = 3;
 }
-else if(gacha > 17){sprite_index = spr_trash;}
-audio_play_sound(sd_receive, 1, false);
-global.coins -= cost;
+else if(gacha > 17){sprite_index = spr_trash; rarity = 1;}
+
+alarm[1] = room_speed/2;

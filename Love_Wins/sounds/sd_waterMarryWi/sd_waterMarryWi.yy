@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 5.652,
+  "duration": 4.14,
   "parent": {
     "name": "water",
     "path": "folders/Sounds/water.yy",
